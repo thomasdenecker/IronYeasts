@@ -4,5 +4,9 @@ python:
 install:
   - pip install pipenv
   - pipenv install
+  - pip3 install pylint
+  - python -m pip install flake8
 script:
-  - pipenv run python ./MESH_link/MESH_link.py -m ./MESH_link/Mesh_file/d2018.bin -o ./MESH_link/Outputs/Mesh_link_table_2018
+  - falke8 ./MESH_link/mesh_link.py
+  - python -m pylint mesh_link.py
+  - pipenv run python ./MESH_link/mesh_link.py -m ./MESH_link/Mesh_file/d2018.bin -o ./MESH_link/Outputs/Mesh_link_table_2018

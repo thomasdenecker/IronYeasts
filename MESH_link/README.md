@@ -14,9 +14,9 @@ $ cd ironYeast/MESH_link
 # Install pipenv
 $ pipenv install
 # Have help
-python3 MESH_link.py --help
+python3 mesh_link.py --help
 # Run GRYCotation with exemple files
-$ pipenv run python MESH_link.py -m ./Mesh_file/d2018.bin -o ./Outputs/Mesh_link_table_2018
+$ pipenv run python mesh_link.py -m ./Mesh_file/d2018.bin -o ./Outputs/Mesh_link_table_2018
 ```
 ## Usage
 ```bash
