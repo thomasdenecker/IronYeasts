@@ -50,8 +50,8 @@ OUTPUT = ARGS.output
 # -----------------------------------------------------------------------------
 
 # Read MESH file
-INFILE = open(MESH, "r")
-LINES_MESH = INFILE.readlines()
+infile = open(MESH, "r")
+LINES_MESH = infile.readlines()
 
 # Output file
 OUTFILE = open(OUTPUT+".txt", "w")
@@ -71,5 +71,5 @@ for line in LINES_MESH:
         OUTFILE.write("\t".join(newline)+"\n")
 
 # Close files
-INFILE.close()
+infile.close()
 OUTFILE.close()
