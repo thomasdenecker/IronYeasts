@@ -45,13 +45,19 @@ if len(sys.argv) != 5:
 MESH = ARGS.mesh
 OUTPUT = ARGS.output
 
+
+
+
+
+
+
 # -----------------------------------------------------------------------------
 # Main
 # -----------------------------------------------------------------------------
 
 # Read MESH file
-infile = open(MESH, "r")
-LINES_MESH = infile.readlines()
+INFILE = open(MESH, "r")
+LINES_MESH = INFILE.readlines()
 
 # Output file
 OUTFILE = open(OUTPUT+".txt", "w")
@@ -71,5 +77,5 @@ for line in LINES_MESH:
         OUTFILE.write("\t".join(newline)+"\n")
 
 # Close files
-infile.close()
+INFILE.close()
 OUTFILE.close()
