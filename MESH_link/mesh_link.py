@@ -19,13 +19,13 @@ import argparse
 # -----------------------------------------------------------------------------
 
 PARSER = argparse.ArgumentParser()
-PARSER .add_argument("-m", "--MESH", dest="mesh",
-                     help="Mesh file (bin format find here \
-                     (dYEAR.bin, ie. d2018.bin): \
-                     ftp://nlmpubs.nlm.nih.gov/online/mesh/MESH_FILES/\
-                     asciimesh/)")
-PARSER .add_argument("-o", "--output", dest="output",
-                     help="File name of link table (whithout format (.txt))")
+PARSER.add_argument("-m", "--MESH", dest="mesh",
+                    help="Mesh file (bin format find here \
+                    (dYEAR.bin, ie. d2018.bin): \
+                    ftp://nlmpubs.nlm.nih.gov/online/mesh/MESH_FILES/\
+                    asciimesh/)")
+PARSER.add_argument("-o", "--output", dest="output",
+                    help="File name of link table (whithout format (.txt))")
 ARGS = PARSER.parse_args()
 
 if len(sys.argv) != 5:
