@@ -5,4 +5,4 @@ install:
   - pip install pipenv
   - pipenv install
 script:
-  - pipenv run python MESH_link.py -m ./Mesh_file/d2018.bin -o ./Outputs/Mesh_link_table_2018
+  - pipenv run python ./MESH_link/MESH_link.py -m ./MESH_link/Mesh_file/d2018.bin -o ./MESH_link/Outputs/Mesh_link_table_2018
