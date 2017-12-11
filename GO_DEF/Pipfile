@@ -8,6 +8,11 @@ name = "pypi"
 pytest = "*"
 "pytest-pep8" = "*"
 "pytest-cov" = "*"
+datetime = "*"
+argparse = "*"
 
 
 [dev-packages]
+
+[requires]
+python_version = "3.6"
