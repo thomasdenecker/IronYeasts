@@ -15,7 +15,7 @@ script:
   - pipenv run python ./MESH_link/mesh_link.py -m ./MESH_link/Mesh_file/d2018.bin -o ./MESH_link/Outputs/Mesh_link_table_2018
   - flake8 ./GO_DEF/go_obo_to_table.py # Test GO_DEF
   - python -m pylint ./GO_DEF/go_obo_to_table.py
-  - pipenv run python ./GO_DEF/go_obo_to_table.py -o ./GO_DEF/Inputs/test_travis
+  - pipenv run python ./GO_DEF/go_obo_to_table.py -o ./GO_DEF/Outputs/test_travis -g ./GO_DEF/Inputs/go.obo
 
 after_success:
   - coveralls
