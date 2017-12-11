@@ -1,0 +1,17 @@
+language: python
+python:
+  - "3.6"
+install:
+  - pip install pipenv
+  - pipenv install
+  - pip3 install pylint
+  - python -m pip install flake8
+  - pip install -r requirements.txt
+
+script:
+  - flake8 ./MESH_link/mesh_link.py
+  - python -m pylint ./MESH_link/mesh_link.py
+  - pipenv run python ./MESH_link/mesh_link.py -m ./MESH_link/Mesh_file/d2018.bin -o ./MESH_link/Outputs/Mesh_link_table_2018
+
+after_success:
+  - coveralls
