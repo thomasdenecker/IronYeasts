@@ -1,1 +1,4 @@
-{}
+{
+  "MESH_link/test.py::ExTestCase": true, 
+  "MESH_link/test.py::TestCase": true
+}
