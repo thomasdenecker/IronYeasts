@@ -8,6 +8,7 @@ install:
   - python -m pip install flake8
   - pip install python-coveralls
   - pip install coverage
+  - pip install -r requirements.txt --use-mirrors
 
 script:
   - flake8 ./MESH_link/mesh_link.py
