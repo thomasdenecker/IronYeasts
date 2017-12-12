@@ -15,12 +15,12 @@ $ cd ironYeast/MESH_link
 $ pipenv install
 # Have help
 python3 mesh_link.py --help
-# Run GRYCotation with exemple files
+# Run mesh_link with exemple files
 $ pipenv run python mesh_link.py -m ./Mesh_file/d2018.bin -o ./Outputs/Mesh_link_table_2018
 ```
 ## Usage
 ```bash
-Usage: MESH_link.py [options]
+Usage: mesh_link.py [options]
 
 Options:
   -h, --help            show this help message and exit
