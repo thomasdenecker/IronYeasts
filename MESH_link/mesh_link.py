@@ -25,18 +25,14 @@ def parse_args():
     Function to get and parse arguments
     """
     parser = argparse.ArgumentParser()
-    parser.add_argument("-m", "--MESH", dest="mesh",
+    parser.add_argument("-m", "--MESH", dest="mesh", required=True,
                         help="Mesh file (bin format find here \
                         (dYEAR.bin, ie. d2018.bin): \
                         ftp://nlmpubs.nlm.nih.gov/online/mesh/MESH_FILES/\
                         asciimesh/)")
-    parser.add_argument("-o", "--output", dest="output",
+    parser.add_argument("-o", "--output", dest="output", required=True,
                         help="File name of link table \
                         (whithout format (.txt))")
-    if len(sys.argv) != 5:
-        parser.error("2 arguments are expected.\
-                     Please, read help to have arguments (sys.argv[0] -h or \
-                     sys.argv[0] --help)")
 
     return parser.parse_args()
 
