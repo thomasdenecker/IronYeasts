@@ -26,9 +26,9 @@ def parse_args():
     Function to get and parse arguments
     """
     parser = argparse.ArgumentParser()
-    parser.add_argument("-o", "--organism", dest="organism", required=True,
-                        help="Studied organism. WARNING : no space in the name\
-                         i.e. : C_glabrata")
+    parser.add_argument("-o", "--output", dest="output", required=True,
+                        help="Output. WARNING : no extention (_GRYC.txt)\
+                         i.e. : C_glabrata for C_glabrata_GRYC.txt")
     parser.add_argument("-f", "--folder", dest="folder", required=True,
                         help="Folder with EMBL files")
 
@@ -45,7 +45,7 @@ if __name__ == '__main__':
     # In GRYC, 1 chromosome = 1 EMBL file
 
     ARGS = parse_args()
-    ORGANISM = ARGS.organism
+    OUTPUT = ARGS.output
     FOLDER = ARGS.folder
 
     # -----------------------------------------------------------------------------
@@ -56,7 +56,7 @@ if __name__ == '__main__':
     EMBL_FILES = glob.glob(FOLDER + "*.embl")
 
     # Write in a output file
-    OUTFILE = open("./Outputs/GRYC_"+ORGANISM+".txt", "w")
+    OUTFILE = open(OUTPUT+"_GRYC.txt", "w")
     OUTFILE.write('locus_tag' + "\t" + 'GRYC_note' + "\n")
 
     # For all genes, get his name and his description
