@@ -16,6 +16,9 @@ script:
   - flake8 ./GO_DEF/go_obo_to_table.py # Test GO_DEF
   - python -m pylint ./GO_DEF/go_obo_to_table.py
   - pipenv run python ./GO_DEF/go_obo_to_table.py -o ./GO_DEF/Outputs/test_travis -g ./GO_DEF/Inputs/go.obo
+  - flake8 ./GRYCotation/grycotation.py
+  - python -m pylint ./GRYCotation/grycotation.py
+  - pipenv run python ./GRYCotation/grycotation.py -o ./GRYCotation/Outputs/S_cerevisiae -f ./GRYCotation/S_cerevisiae_EMBL/
 
 after_success:
   - coveralls
