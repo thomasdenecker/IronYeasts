@@ -1,0 +1,10 @@
+Package: Ytools
+Type: Package
+Title: Tools to analyse Yeast data (S.cerevisiae, C. albicans, C. glabrata)
+Version: 0.1.0
+Author: Thomas DENECKER
+Maintainer: The package maintainer <thomas.denecker@gmail.com>
+Description: This package provides functions for recovering, analyzing and representing yeast data. The yeasts concerned are S. cerevisiae, C. albicans and C. glabrata.
+License: Free :)
+Encoding: UTF-8
+LazyData: true
