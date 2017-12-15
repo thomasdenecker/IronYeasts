@@ -1,8 +1,7 @@
 matrix:
   include:
     - language: python
-      python:
-        - "3.6"
+      python: "3.6"
       install:
         - pip install pipenv
         - pipenv install
@@ -27,5 +26,12 @@ matrix:
 
     - language: r
       cache: packages
+      sudo: false
+      addons:
+      apt:
+        sources:
+        - r-packages-precise
+        packages:
+        - r-base-dev
       script:
         - Rscript ./tests/install_Ytools.R
