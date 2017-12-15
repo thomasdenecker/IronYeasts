@@ -1,24 +1,31 @@
-language: python
-python:
-  - "3.6"
-install:
-  - pip install pipenv
-  - pipenv install
-  - pip3 install pylint
-  - python -m pip install flake8
-  - pip install -r requirements.txt
+matrix:
+  include:
+    - language: python
+      python:
+        - "3.6"
+      install:
+        - pip install pipenv
+        - pipenv install
+        - pip3 install pylint
+        - python -m pip install flake8
+        - pip install -r requirements.txt
 
-script:
+      script:
 
-  - flake8 ./MESH_link/mesh_link.py # Test MESH
-  - python -m pylint ./MESH_link/mesh_link.py
-  - pipenv run python ./MESH_link/mesh_link.py -m ./MESH_link/Mesh_file/d2018.bin -o ./MESH_link/Outputs/Mesh_link_table_2018
-  - flake8 ./GO_DEF/go_obo_to_table.py # Test GO_DEF
-  - python -m pylint ./GO_DEF/go_obo_to_table.py
-  - pipenv run python ./GO_DEF/go_obo_to_table.py -o ./GO_DEF/Outputs/test_travis -g ./GO_DEF/Inputs/go.obo
-  - flake8 ./GRYCotation/grycotation.py
-  - python -m pylint ./GRYCotation/grycotation.py
-  - pipenv run python ./GRYCotation/grycotation.py -o ./GRYCotation/Outputs/S_cerevisiae -f ./GRYCotation/S_cerevisiae_EMBL/
+        - flake8 ./MESH_link/mesh_link.py # Test MESH
+        - python -m pylint ./MESH_link/mesh_link.py
+        - pipenv run python ./MESH_link/mesh_link.py -m ./MESH_link/Mesh_file/d2018.bin -o ./MESH_link/Outputs/Mesh_link_table_2018
+        - flake8 ./GO_DEF/go_obo_to_table.py # Test GO_DEF
+        - python -m pylint ./GO_DEF/go_obo_to_table.py
+        - pipenv run python ./GO_DEF/go_obo_to_table.py -o ./GO_DEF/Outputs/test_travis -g ./GO_DEF/Inputs/go.obo
+        - flake8 ./GRYCotation/grycotation.py
+        - python -m pylint ./GRYCotation/grycotation.py
+        - pipenv run python ./GRYCotation/grycotation.py -o ./GRYCotation/Outputs/S_cerevisiae -f ./GRYCotation/S_cerevisiae_EMBL/
 
-after_success:
-  - coveralls
+      after_success:
+        - coveralls
+
+    - language: r
+      cache: packages
+      script:
+        - Rscript ./tests/install_Ytools.R
