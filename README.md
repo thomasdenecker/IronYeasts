@@ -4,13 +4,13 @@
 [![Coverage Status](https://coveralls.io/repos/github/thomasdenecker/IronYeasts/badge.svg?branch=master)](https://coveralls.io/github/thomasdenecker/IronYeasts?branch=master)
 
 **IronYeasts** is a project that aims to find the genes involved in iron homeostasis in pathogenic yeasts. This project is divided into 2 main parts :
-- tools developed in python :
-  - [GRYCotation](./GRYCotation) : tool to get GRYC annotation of Yeast
-  - [MESH_link](./MESH_link) : tool to find link between MESH terms
-  - [GO_DEF](./GO_DEF) : tool to get the last GO definition for each GO term.
-- tools developed in R :
+- formater.py : Database formating for R. This tool was implemented in Python 3 and is composed :
+  - [GRYCotation](./docs/formater_gryc.md) : tool to get GRYC annotation of Yeast
+  - [MESH_link](./docs/formater_mesh.md) : tool to find link between MESH terms
+  - [GO_DEF](./docs/formater_go.md) : tool to get the last GO definition for each GO term.
+- Ytools and Yanalysis : These programs was implemented with R :
   - Ytools : a package with various functions to assist in the analysis of multi-omics yeast data
-  - Main code : the code that performs the analysis using Ytools
+  - Yanalysis : the code that performs the analysis using Ytools
 
 
 ## Requirements

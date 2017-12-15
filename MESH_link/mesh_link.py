@@ -1,11 +1,10 @@
+#! /usr/bin/env python
+
 """
 Converte raw mesh file to link table
 Thomas Denecker
 December 2017
 """
-
-# !/usr/bin/env python
-# -*- coding: utf-8 -*-
 
 
 # -----------------------------------------------------------------------------
@@ -24,12 +23,12 @@ def parse_args():
     Function to get and parse arguments
     """
     parser = argparse.ArgumentParser()
-    parser.add_argument("-m", "--MESH", dest="mesh", required=True,
+    parser.add_argument("-m", "--MESH", dest="mesh",
                         help="Mesh file (bin format find here \
                         (dYEAR.bin, ie. d2018.bin): \
                         ftp://nlmpubs.nlm.nih.gov/online/mesh/MESH_FILES/\
                         asciimesh/)")
-    parser.add_argument("-o", "--output", dest="output", required=True,
+    parser.add_argument("-o", "--output", dest="output",
                         help="File name of link table \
                         (whithout format (.txt))")
 
