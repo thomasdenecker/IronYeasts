@@ -1,0 +1,67 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 100px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+.center{
+  text-align: center;
+}
+
+
+.height50{
+  height: 50px;
+}
+
+.btn100{
+  width: 100px;
+}
+
+img.partenaire{
+  height: 75px;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+img.socials{
+  margin-left: 1em;
+  margin-right: 1em;
+  height: 25px;
+}
+
+.vertical-align > [class^="col-"],
+.vertical-align > [class*=" col-"] {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Optional, to align inner items
+                              horizontally inside the column */
+}
+
+.vertical_content{
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Optional, to align inner items*/
+}
+
+.carousel-inner{
+    height: 200px;
+}
+
+.item img{
+    min-height:200px;
+    border: 1px solid red;
+}
