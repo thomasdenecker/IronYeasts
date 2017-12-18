@@ -4,22 +4,19 @@ matrix:
       python: "3.6"
       install:
         - pip install pipenv
-        - pipenv install
-        - pip3 install pylint
-        - python -m pip install flake8
-        - pip install -r requirements.txt
+
+      before_script :
+        - pipenv install --ignore-pipfile
 
       script:
 
-        - flake8 ./MESH_link/mesh_link.py # Test MESH
-        - python -m pylint ./MESH_link/mesh_link.py
-        - pipenv run python ./MESH_link/mesh_link.py -m ./MESH_link/Mesh_file/d2018.bin -o ./MESH_link/Outputs/Mesh_link_table_2018
-        - flake8 ./GO_DEF/go_obo_to_table.py # Test GO_DEF
-        - python -m pylint ./GO_DEF/go_obo_to_table.py
-        - pipenv run python ./GO_DEF/go_obo_to_table.py -o ./GO_DEF/Outputs/test_travis -g ./GO_DEF/Inputs/go.obo
-        - flake8 ./GRYCotation/grycotation.py
-        - python -m pylint ./GRYCotation/grycotation.py
-        - pipenv run python ./GRYCotation/grycotation.py -o ./GRYCotation/Outputs/S_cerevisiae -f ./GRYCotation/S_cerevisiae_EMBL/
+        - pipenv run flake8 formater.py
+        - pipenv run python formater.py --gryc -i ./tests/GRYC/ -o ./tests/GRYC/to_test_GRYC
+        - pipenv run diff ./tests/GRYC/to_test_GRYC.txt ./tests/GRYC/test_GRYC.txt
+        - pipenv run python formater.py --go -i tests/GO/GO_input_test.obo -o tests/GO/to_test_GO
+        - pipenv run diff ./tests/GO/to_test_GO.txt ./tests/GO/test_GO.txt
+        - pipenv run python formater.py --mesh -i tests/MESH/MESH_input_test.bin -o tests/MESH/to_test_MESH
+        - pipenv run diff ./tests/MESH/to_test_MESH.txt ./tests/MESH/test_MESH.txt
 
       after_success:
         - coveralls
