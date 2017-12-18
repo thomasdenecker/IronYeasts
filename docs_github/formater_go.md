@@ -1,4 +1,4 @@
-# ironYeast
+# Formater `--go`
 
 Simple code to associate GO with its definition.
 
@@ -9,28 +9,35 @@ Simple code to associate GO with its definition.
 
 ```bash
 # Clone the project
-$ https://github.com/thomasdenecker/ironYeast.git
-$ cd ironYeast/GO_DEF
+$ git clone https://github.com/thomasdenecker/IronYeasts.git
+$ cd IronYeasts
 # Install pipenv
-$ pipenv install
+$ pipenv install --ignore-pipfile
 # Have help
-python3 go_obo_to_table.py --help
+python3 formater.py --help
 # Run go_obo_to_table by default
-$ pipenv run python go_obo_to_table.py
+$ pipenv run python formater.py --go -i tests/GO/GO_input_test.obo -o ./Outputs/demo_GO
 ```
 ## Usage
 ```bash
-usage: go_obo_to_table.py [-h] [-g GO_FILE] [-o OUTPUT]
+$ python formater.py --help
+usage: formater.py [-h] [-i INPUT] [-o OUTPUT] [--mesh] [--go] [--gryc]
 
 optional arguments:
   -h, --help            show this help message and exit
-  -g GO_FILE, --GO GO_FILE
-                        GO terms file (obo format find here : (go.obo, ie.
-                        go.obo : http://purl.obolibrary.org/obo/go.obo). By
-                        default, the last version
+  -i INPUT, --input INPUT
+                        For MESH, a Mesh file (bin format find here
+                        (dYEAR.bin, ie. d2018.bin):
+                        ftp://nlmpubs.nlm.nih.gov/online/mesh/MESH_FILES/
+                        asciimesh/). For GO, a GO terms file (obo format find
+                        here : (go.obo, ie. go.obo :
+                        http://purl.obolibrary.org/obo/go.obo). By default,
+                        the last version.For GRYC a folder with EMBL files
   -o OUTPUT, --output OUTPUT
-                        File name of link table (whithout format (.txt)). By
-                        default : GO_with_def_DATE.txt
+                        Output file name (whithout format (.txt))
+  --mesh                Converte raw mesh file to link table
+  --go                  Associate GO term and its definition
+  --gryc                Generate table with all annotations of GRYC
 ```
 ## GO
 

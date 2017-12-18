@@ -1,4 +1,4 @@
-# GRYCotation
+# Formater `--gryc`
 
 A simple code to get GRYC annotation for yeasts.
 
@@ -9,25 +9,35 @@ A simple code to get GRYC annotation for yeasts.
 
 ```bash
 # Clone the project
-$ git clone https://github.com/thomasdenecker/Tools.git
-$ cd Tools/GRYC
+$ git clone https://github.com/thomasdenecker/IronYeasts.git
+$ cd IronYeasts
 # Install pipenv
-$ pipenv install
+$ pipenv install --ignore-pipfile
 # Have help
-python GRYCotation.py --help
+python formater.py --help
 # Run GRYCotation with exemple files
-$ pipenv run python grycotation.py -o C_glabrata -f ./C_glabrata_EMBL/
+$ pipenv run python formater.py --gryc -i ./tests/GRYC/ -o ./Outputs/demo_GRYC
 ```
 ## Usage
 ```bash
-Usage: grycotation.py [options]
+$ python formater.py --help
+usage: formater.py [-h] [-i INPUT] [-o OUTPUT] [--mesh] [--go] [--gryc]
 
-Options:
+optional arguments:
   -h, --help            show this help message and exit
-  -o ORGANISM, --organism=ORGANISM
-                        Studied organism
-  -f FOLDER, --folder=FOLDER
-                        Folder with EMBL files
+  -i INPUT, --input INPUT
+                        For MESH, a Mesh file (bin format find here
+                        (dYEAR.bin, ie. d2018.bin):
+                        ftp://nlmpubs.nlm.nih.gov/online/mesh/MESH_FILES/
+                        asciimesh/). For GO, a GO terms file (obo format find
+                        here : (go.obo, ie. go.obo :
+                        http://purl.obolibrary.org/obo/go.obo). By default,
+                        the last version.For GRYC a folder with EMBL files
+  -o OUTPUT, --output OUTPUT
+                        Output file name (whithout format (.txt))
+  --mesh                Converte raw mesh file to link table
+  --go                  Associate GO term and its definition
+  --gryc                Generate table with all annotations of GRYC
 ```
 ## GRYC and EMBL files
 

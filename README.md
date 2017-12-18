@@ -22,17 +22,19 @@ installed the following requirements before trying to use different programs:
 
 * [pipenv](https://github.com/kennethreitz/pipenv)
 
-This project use `flake8` to ensure coding style consistency (PEP8). To test python codes locally,
-you must install the following modules:
-
-* [flake8](http://flake8.pycqa.org/en/latest/)
-* [Biopython](http://biopython.org/)
-
-The command lines to install them are :
+We invite you to install pipenv to get all the necessary packages :
 
 ```bash
-python3 -m pip install flake8
-python3 -m pip install biopython
+$ git clone https://github.com/thomasdenecker/IronYeasts.git
+$ cd IronYeasts
+$ pipenv install --ignore-pipfile
+```
+
+This project use [flake8](http://flake8.pycqa.org/en/latest/) to ensure coding style consistency (PEP8).
+To test python codes locally, you can use this commande line:
+
+```bash
+$ pipenv run flake8 formater.py
 ```
 
 ## Quick start
@@ -43,17 +45,34 @@ Have you read the "Requirements" section above?
 # Clone the project
 $ git clone https://github.com/thomasdenecker/IronYeasts.git
 $ cd IronYeasts
+$ pipenv install --ignore-pipfile
 ```
 Then, we invite you to read the different READMEs proposed for each options :
-- [`--mesh`](./docs_github) : To get link betweenn MESH Term
-- [`--go`](./docs_github) : To associate GO with its definition
-- [`--gryc`](./docs_github) : To get GRYC annotation for yeasts.
+- [`--mesh`](./docs_github/formater_mesh.md) : To get link betweenn MESH Term
+- [`--go`](./docs_github/formater_go.md) : To associate GO with its definition
+- [`--gryc`](./docs_github/formater_gryc.md) : To get GRYC annotation for yeasts.
 
-To use `formater.py`:
+To have help for `formater.py`:
 
 ```bash
+$ python formater.py --help
+usage: formater.py [-h] [-i INPUT] [-o OUTPUT] [--mesh] [--go] [--gryc]
 
-
+optional arguments:
+  -h, --help            show this help message and exit
+  -i INPUT, --input INPUT
+                        For MESH, a Mesh file (bin format find here
+                        (dYEAR.bin, ie. d2018.bin):
+                        ftp://nlmpubs.nlm.nih.gov/online/mesh/MESH_FILES/
+                        asciimesh/). For GO, a GO terms file (obo format find
+                        here : (go.obo, ie. go.obo :
+                        http://purl.obolibrary.org/obo/go.obo). By default,
+                        the last version.For GRYC a folder with EMBL files
+  -o OUTPUT, --output OUTPUT
+                        Output file name (whithout format (.txt))
+  --mesh                Converte raw mesh file to link table
+  --go                  Associate GO term and its definition
+  --gryc                Generate table with all annotations of GRYC
 ```
 
 ## Continuous integration
@@ -68,7 +87,7 @@ In this project, we use [Travis CI](https://travis-ci.org). A documentation is a
 To run locally them with python codes
 
 ```bash
-$ flake8 CODE_NAME.py
+$ pipenv run flake8 formater.py
 ```
 #### 2) Test code
 > The pytest framework makes it easy to write small tests, yet scales to support complex functional testing for applications and libraries.
@@ -82,6 +101,16 @@ A documentation is available [here](./docs/coveralls.md)
 
 In coming
 
+#### 4) Functional tests
+We test for each change with a test file whether the output file is always the same.
+
+```bash
+diff file1.txt file2.txt
+```
+
+<aside class="warning">
+You should never change test files (location and name)
+</aside>
 
 ## Contributing
 

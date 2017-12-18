@@ -1,1 +1,13 @@
 source	target
+Abdominal Muscles	Abdominal Wall
+Abducens Nerve	Abducens Nucleus
+Abnormalities, Drug-Induced	Teratogenesis
+Abnormalities, Drug-Induced	Teratogens
+Abnormalities, Multiple	Intellectual Disability
+Abnormalities, Radiation-Induced	Teratogenesis
+Abortifacient Agents	Oxytocics
+Abortion, Spontaneous	Aborted Fetus
+Abortion, Spontaneous	Abortifacient Agents
+Abortion, Habitual	Embryo Loss
+Abortion, Habitual	Fetal Death
+Abortion, Induced	Aborted Fetus
