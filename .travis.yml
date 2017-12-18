@@ -4,7 +4,7 @@ matrix:
       python: "3.6"
       install:
         - pip install pipenv
-          
+
       before_script :
         - pipenv install --ignore-pipfile
 
@@ -15,7 +15,7 @@ matrix:
         - pipenv run diff ./tests/GRYC/to_test_GRYC.txt ./tests/GRYC/test_GRYC.txt
         - pipenv run python formater.py --go -i tests/GO/GO_input_test.obo -o tests/GO/to_test_GO
         - pipenv run diff ./tests/GO/to_test_GO.txt ./tests/GO/test_GO.txt
-        - pipenv run python formater.py --mesh -i tests/MESH/MESH_input_test.bin -o tests/MESH/test_MESH
+        - pipenv run python formater.py --mesh -i tests/MESH/MESH_input_test.bin -o tests/MESH/to_test_MESH
         - pipenv run diff ./tests/MESH/to_test_MESH.txt ./tests/MESH/test_MESH.txt
 
       after_success:
