@@ -3,10 +3,11 @@ matrix:
     - language: python
       python: "3.6"
       install:
-        - pip install pipenv
-        - pipenv install
-        - python -m pip install flake8
+        - pip install -r requirements.txt
 
+      before_script :
+        - pipenv install
+        
       script:
 
         - pipenv run flake8 formater.py
