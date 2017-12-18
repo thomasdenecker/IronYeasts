@@ -26,14 +26,12 @@ This project use `flake8` to ensure coding style consistency (PEP8). To test py
 you must install the following modules:
 
 * [flake8](http://flake8.pycqa.org/en/latest/)
-* [Pylint](https://www.pylint.org/#install)
 * [Biopython](http://biopython.org/)
 
 The command lines to install them are :
 
 ```bash
 python3 -m pip install flake8
-python3 -m pip install pylint
 python3 -m pip install biopython
 ```
 
@@ -46,7 +44,17 @@ Have you read the "Requirements" section above?
 $ git clone https://github.com/thomasdenecker/IronYeasts.git
 $ cd IronYeasts
 ```
-Then, we invite you to read the different READMEs proposed for each program.
+Then, we invite you to read the different READMEs proposed for each options :
+- [`--mesh`](./docs_github) : To get link betweenn MESH Term
+- [`--go`](./docs_github) : To associate GO with its definition
+- [`--gryc`](./docs_github) : To get GRYC annotation for yeasts.
+
+To use `formater.py`:
+
+```bash
+
+
+```
 
 ## Continuous integration
 > Continuous Integration (CI) is the process of automating the build and testing of code at each commit changes.
@@ -55,13 +63,12 @@ In this project, we use [Travis CI](https://travis-ci.org). A documentation is a
 
 ### Python part
 #### 1) Lint the code
-> `flake8` and `lint` are tools to ensure coding style consistency (PEP8).
+> `flake8` is tool to ensure coding style consistency (PEP8).
 
 To run locally them with python codes
 
 ```bash
 $ flake8 CODE_NAME.py
-$ pylint CODE_NAME.py
 ```
 #### 2) Test code
 > The pytest framework makes it easy to write small tests, yet scales to support complex functional testing for applications and libraries.
