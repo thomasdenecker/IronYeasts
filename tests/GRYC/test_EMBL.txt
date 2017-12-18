@@ -1,0 +1,201 @@
+locus_tag	GRYC_note
+CAGL0A00165g	some similarities with KLLA0E10593g Kluyveromyces lactis
+CAGL0A00187g	weakly similar to uniprot|P53191 Saccharomyces cerevisiae YGL023c PIB2 phosphatidylinositol 3-phosphate binding
+CAGL0A00209g	highly similar to uniprot|P39007 Saccharomyces cerevisiae YGL022w STT3
+CAGL0A00231g	similar to uniprot|P43633 Saccharomyces cerevisiae YGL021w ALK1 DNA damage-responsive protein
+CAGL0A00253g	similar to uniprot|P53192 Saccharomyces cerevisiae YGL020c
+CAGL0A00275g	highly similar to uniprot|P43639 Saccharomyces cerevisiae YGL019w CKB1
+CAGL0A00297g	similar to uniprot|P53193 Saccharomyces cerevisiae YGL018c JAC1 molecular chaperone
+CAGL0A00319g	similar to uniprot|P16639 Saccharomyces cerevisiae YGL017w ATE1 arginyl tRNA transferase
+CAGL0A00341g	similar to uniprot|P25338 Saccharomyces cerevisiae YGL010w
+CAGL0A00363g	highly similar to uniprot|P07264 Saccharomyces cerevisiae YGL009c LEU1 3-isopropylmalate dehydratase
+CAGL0A00385g	similar to uniprot|P32767 Saccharomyces cerevisiae YGL016w PDR6
+CAGL0A00407g	highly similar to uniprot|P21243 Saccharomyces cerevisiae YGL011c SCL1
+CAGL0A00429g	highly similar to uniprot|P25340 Saccharomyces cerevisiae YGL012w ERG4 sterol C-24 reductase
+CAGL0A00451g	similar to uniprot|P12383 Saccharomyces cerevisiae YGL013c PDR1 transcription factor
+CAGL0A00473g	similar to uniprot|P25339 Saccharomyces cerevisiae YGL014w
+CAGL0A00495g	highly similar to uniprot|P05030 Saccharomyces cerevisiae YGL008c PMA1 or uniprot|P19657 Saccharomyces cerevisiae YPL036w PMA2
+CAGL0A00517g	similar to uniprot|P38929 Saccharomyces cerevisiae YGL006w PMC1
+CAGL0A00539g	similar to uniprot|P53195 Saccharomyces cerevisiae YGL005c
+CAGL0A00561g	similar to uniprot|P53196 Saccharomyces cerevisiae YGL004c
+CAGL0A00583g	weakly similar to uniprot|Q06149 Saccharomyces cerevisiae YLR266c
+CAGL0A00605g	similar to uniprot|P53197 Saccharomyces cerevisiae YGL003c CDH1 substrate-specific activator of APC-dependent proteolysis
+CAGL0A00627g	similar to uniprot|P53198 Saccharomyces cerevisiae YGL002w ERP6 and similar to uniprot|Q05359 Saccharomyces cerevisiae YAR002C-A
+CAGL0A00649g	no similarity
+CAGL0A00715g	no similarity
+CAGL0A00737g	highly similar to uniprot|P39003 Saccharomyces cerevisiae YDR343c HXT6 or uniprot|P39004 Saccharomyces cerevisiae YDR342c HXT7
+CAGL0A00781g	similar to uniprot|P39702 Saccharomyces cerevisiae YAL002w VPS8
+CAGL0A00803g	similar to uniprot|P34111 Saccharomyces cerevisiae YAL001c TFC3
+CAGL0A00825g	similar to uniprot|Q06168 Saccharomyces cerevisiae YLR321c SFH1
+CAGL0A00847g	similar to uniprot|Q9URQ3 Saccharomyces cerevisiae YLR316c TAD3
+CAGL0A00869g	similar to uniprot|Q06163 Saccharomyces cerevisiae YLR318w EST2 catalytic subunit of the telomerase
+CAGL0A00891g	similar to uniprot|P41697 Saccharomyces cerevisiae YLR319c BUD6
+CAGL0A00913g	weakly similar to uniprot|Q06164 Saccharomyces cerevisiae YLR320w
+CAGL0A00935g	some similarities with uniprot|P53769 Saccharomyces cerevisiae YLR323c
+CAGL0A00957g	similar to uniprot|Q06169 Saccharomyces cerevisiae YLR324w
+CAGL0A00979g	highly similar to uniprot|P49167 Saccharomyces cerevisiae YLR325c RPL38
+CAGL0A01001g	similar to uniprot|Q06170 Saccharomyces cerevisiae YLR326w
+CAGL0A01023g	similar to uniprot|Q06178 Saccharomyces cerevisiae YLR328w or uniprot|P53204 Saccharomyces cerevisiae YGR010w
+CAGL0A01045g	highly similar to uniprot|P08417 Saccharomyces cerevisiae YPL262w FUM1 fumarate hydratase
+CAGL0A01067g	similar to uniprot|Q08979 Saccharomyces cerevisiae YPL263c KEL3
+CAGL0A01089g	similar to uniprot|Q08984 Saccharomyces cerevisiae YPL272c
+CAGL0A01111g	highly similar to uniprot|P21306 Saccharomyces cerevisiae YPL271w ATP15
+CAGL0A01133g	similar to uniprot|P33311 Saccharomyces cerevisiae YPL270w MDL2
+CAGL0A01155g	similar to uniprot|P32526 Saccharomyces cerevisiae YPL269w KAR9
+CAGL0A01177g	similar to uniprot|P32383 Saccharomyces cerevisiae YPL268w PLC1 1-phosphatidylinositol-4 5-bisphosphate phosphodiesterase
+CAGL0A01193g	no similarity
+CAGL0A01199g	similar to uniprot|P53388 Saccharomyces cerevisiae YPL265w DIP5 dicarboxylic amino acid permease
+CAGL0A01221g	similar to uniprot|P53386 Saccharomyces cerevisiae YPR192w AQY1
+CAGL0A01243g	similar to uniprot|P25346 Saccharomyces cerevisiae YCR098c GIT1 glycerophosphoinositol transporter
+CAGL0A01284g	no similarity,
+CAGL0A01325g	similar to uniprot|P40356 Saccharomyces cerevisiae YGL025c PGD1
+CAGL0A01366g	no similarity,
+CAGL0A01408g	similar to uniprot|P40356 Saccharomyces cerevisiae YGL025c PGD1
+CAGL0A01430g	highly similar to uniprot|P00931 Saccharomyces cerevisiae YGL026c TRP5
+CAGL0A01452g	similar to uniprot|P53008 Saccharomyces cerevisiae YGL027c CWH41
+CAGL0A01474g	similar to uniprot|P53189 Saccharomyces cerevisiae YGL028c SCW11
+CAGL0A01540g	highly similar to uniprot|P14120 Saccharomyces cerevisiae YGL030w RPL32
+CAGL0A01562g	highly similar to uniprot|P24000 Saccharomyces cerevisiae YGR148c RPL30B or uniprot|P04449 Saccharomyces cerevisiae YGL031c RPL30A
+CAGL0A01584g	similar to uniprot|P32781 Saccharomyces cerevisiae YGL032c AGA2
+CAGL0A01606g	similar to uniprot|P53187 Saccharomyces cerevisiae YGL033w HOP2
+CAGL0A01628g	similar to uniprot|P27705 Saccharomyces cerevisiae YGL035c MIG1 transcriptional repressor
+CAGL0A01650g	no similarity
+CAGL0A01672g	similar to uniprot|P40357 Saccharomyces cerevisiae YGR009c SEC9
+CAGL0A01694g	some similarities with uniprot|P53185 Saccharomyces cerevisiae YGL036w MTC2
+CAGL0A01716g	highly similar to uniprot|P53184 Saccharomyces cerevisiae YGL037c PNC1
+CAGL0A01738g	similar to uniprot|P31755 Saccharomyces cerevisiae YGL038c OCH1 alpha-1 6-mannosyltransferase
+CAGL0A01760g	similar to uniprot|Q05506 Saccharomyces cerevisiae YDR341c arginyl-tRNA synthetase or uniprot|P38714 Saccharomyces cerevisiae YHR091c MSR1
+CAGL0A01782g	highly similar to uniprot|P39003 Saccharomyces cerevisiae YDR343c HXT6 or uniprot|P39004 Saccharomyces cerevisiae YDR342c HXT7
+CAGL0A01804g	highly similar to uniprot|P32466 Saccharomyces cerevisiae YDR345c HXT3 or uniprot|P32465 Saccharomyces cerevisiae YHR094c HXT1
+CAGL0A01826g	highly similar to uniprot|P38695 Saccharomyces cerevisiae YHR096c HXT5 or uniprot|P32466 Saccharomyces cerevisiae YDR345c HXT3
+CAGL0A01848g	similar to uniprot|P38810 Saccharomyces cerevisiae YHR098c SFB3
+CAGL0A01870g	no similarity
+CAGL0A01892g	no similarity
+CAGL0A01914g	highly similar to uniprot|P38811 Saccharomyces cerevisiae YHR099w TRA1
+CAGL0A01958g	similar to uniprot|P25040 Saccharomyces cerevisiae YOL022c
+CAGL0A01980g	similar to uniprot|P25038 Saccharomyces cerevisiae YOL023w IFM1
+CAGL0A02002g	some similarities with uniprot|P43598 Saccharomyces cerevisiae YFR017c and some similarities with uniprot|Q08172 Saccharomyces cerevisiae YOL024w
+CAGL0A02024g	weakly similar to uniprot|Q92325 Saccharomyces cerevisiae YOL025w LAG2
+CAGL0A02046g	similar to uniprot|Q02805 Saccharomyces cerevisiae YOR018w ROD1 or uniprot|P43602 Saccharomyces cerevisiae YFR022w
+CAGL0A02090g	highly similar to uniprot|P38708 Saccharomyces cerevisiae YHR020w
+CAGL0A02112g	highly similar to uniprot|P38707 Saccharomyces cerevisiae YHR019c DED81 asparaginyl-tRNA-synthetase
+CAGL0A02134g	similar to uniprot|P32792 Saccharomyces cerevisiae YHR017w YSC83
+CAGL0A02145g	similar to uniprot|P32793 Saccharomyces cerevisiae YHR016c YSC84 and similar to uniprot|P43603 Saccharomyces cerevisiae YFR024C-A LSB3
+CAGL0A02189g	highly similar to uniprot|Q05506 Saccharomyces cerevisiae YDR341c arginyl-tRNA synthetase or uniprot|P38714 Saccharomyces cerevisiae YHR091c MSR1
+CAGL0A02211g	highly similar to uniprot|P39003 Saccharomyces cerevisiae YDR343c HXT6 or uniprot|P39004 Saccharomyces cerevisiae YDR342c HXT7
+CAGL0A02233g	highly similar to uniprot|P39003 Saccharomyces cerevisiae YDR343c HXT6 or uniprot|P39004 Saccharomyces cerevisiae YDR342c HXT7
+CAGL0A02255g	some similarities with uniprot|P25577 Saccharomyces cerevisiae YCL049c
+CAGL0A02277g	some similarities with uniprot|P25577 Saccharomyces cerevisiae YCL049c
+CAGL0A02299g	no similarity
+CAGL0A02321g	highly similar to uniprot|P32466 Saccharomyces cerevisiae YDR345c HXT3 or uniprot|P42833 Saccharomyces cerevisiae YNL318c HXT14
+CAGL0A02343g	no similarity
+CAGL0A02365g	highly similar to uniprot|Q05515 Saccharomyces cerevisiae YDR346c
+CAGL0A02387g	similar to uniprot|P10662 Saccharomyces cerevisiae YDR347w MRP1
+CAGL0A02409g	similar to uniprot|Q05518 Saccharomyces cerevisiae YDR348c
+CAGL0A02431g	similar to uniprot|Q06325 Saccharomyces cerevisiae YDR349c YPS7
+CAGL0A02475g	some similarities with uniprot|P50273 Saccharomyces cerevisiae YDR350c TCM10
+CAGL0A02486g	some similarities with uniprot|P42223 Saccharomyces cerevisiae YDR351w SBE2 bud growth protein
+CAGL0A02508g	similar to uniprot|Q06328 Saccharomyces cerevisiae YDR352w
+CAGL0A02530g	highly similar to uniprot|P29509 Saccharomyces cerevisiae YDR353w TRR1 thioredoxin reductase or uniprot|P38816 Saccharomyces cerevisiae YHR106w TRR2
+CAGL0A02552g	similar to uniprot|P32468 Saccharomyces cerevisiae YHR107c CDC12
+CAGL0A02574g	similar to uniprot|P07285 Saccharomyces cerevisiae YDR354w TRP4 anthranilate phosphoribosyltransferase
+CAGL0A02596g	similar to uniprot|P32380 Saccharomyces cerevisiae YDR356w NUF1
+CAGL0A02618g	similar to uniprot|Q06333 Saccharomyces cerevisiae YDR357c
+CAGL0A02629g	similar to uniprot|P38817 Saccharomyces cerevisiae YHR108w GGA2 Arf-binding protein
+CAGL0A02651g	similar to uniprot|Q06337 Saccharomyces cerevisiae YDR359c VID21
+CAGL0A02673g	highly similar to uniprot|Q06338 Saccharomyces cerevisiae YDR361c
+CAGL0A02695g	similar to uniprot|Q06339 Saccharomyces cerevisiae YDR362c TFC6
+CAGL0A02706g	similar to uniprot|Q06340 Saccharomyces cerevisiae YDR363w ESC2
+CAGL0A02728g	similar to uniprot|O94742 Saccharomyces cerevisiae YDR363wa SEM1P
+CAGL0A02750g	highly similar to uniprot|P33297 Saccharomyces cerevisiae YOR117w YTA1
+CAGL0A02772g	similar to uniprot|P40968 Saccharomyces cerevisiae YDR364c CDC40
+CAGL0A02794g	highly similar to uniprot|Q06346 Saccharomyces cerevisiae YDR367w
+CAGL0A02816g	highly similar to uniprot|Q12458 Saccharomyces cerevisiae YDR368w YPR1
+CAGL0A02838g	similar to uniprot|P33301 Saccharomyces cerevisiae YDR369c XRS2
+CAGL0A02860g	similar to uniprot|Q06349 Saccharomyces cerevisiae YDR370c
+CAGL0A02882g	highly similar to KLLA0E02266g Kluyveromyces lactis
+CAGL0A02904g	similar to uniprot|Q06350 Saccharomyces cerevisiae YDR371w
+CAGL0A02926g	highly similar to uniprot|Q06385 Saccharomyces cerevisiae YDR372c
+CAGL0A02948g	highly similar to uniprot|Q06389 Saccharomyces cerevisiae YDR373w FRQ1
+CAGL0A02970g	similar to uniprot|Q06390 Saccharomyces cerevisiae YDR374c
+CAGL0A02992g	highly similar to uniprot|P32839 Saccharomyces cerevisiae YDR375c BCS1
+CAGL0A03014g	similar to uniprot|P48360 Saccharomyces cerevisiae YDR376w ARH1
+CAGL0A03036g	highly similar to uniprot|Q06405 Saccharomyces cerevisiae YDR377w ATP17
+CAGL0A03051g	highly similar to uniprot|Q06406 Saccharomyces cerevisiae YDR378c LSM6
+CAGL0A03058g	some similarities with uniprot|Q06407 Saccharomyces cerevisiae YDR379w RGA2
+CAGL0A03080g	similar to uniprot|Q3E785 Saccharomyces cerevisiae YDR379C-A
+CAGL0A03102g	similar to uniprot|Q06408 Saccharomyces cerevisiae YDR380w
+CAGL0A03117g	highly similar to uniprot|Q12159 Saccharomyces cerevisiae YDR381w YRA1
+CAGL0A03146g	no similarity
+CAGL0A03168g	highly similar to uniprot|P02400 Saccharomyces cerevisiae YDR382w RPLA4
+CAGL0A03190g	similar to uniprot|Q12493 Saccharomyces cerevisiae YDR383c
+CAGL0A03212g	similar to uniprot|Q12359 Saccharomyces cerevisiae YDR384c
+CAGL0A03234g	highly similar to uniprot|P32324 Saccharomyces cerevisiae YDR385w EFT2 and highly similar to uniprot|P32324 Saccharomyces cerevisiae YOR133w EFT1
+CAGL0A03256g	similar to uniprot|Q04149 Saccharomyces cerevisiae YDR386w MUS81
+CAGL0A03278g	highly similar to uniprot|P05735 Saccharomyces cerevisiae YBR084ca RPL19B or uniprot|P05735 Saccharomyces cerevisiae YBL027w RPL19A
+CAGL0A03300g	similar to uniprot|P41833 Saccharomyces cerevisiae YGL192w IME4
+CAGL0A03322g	highly similar to uniprot|P53096 Saccharomyces cerevisiae YGL194c HOS2 or uniprot|P32561 Saccharomyces cerevisiae YNL330c RPD3
+CAGL0A03344g	some similarities with uniprot|P53983 Saccharomyces cerevisiae YNL008c or uniprot|P54074 Saccharomyces cerevisiae YMR119w
+CAGL0A03366g	highly similar to uniprot|P38009 Saccharomyces cerevisiae YMR120c ADE17 or uniprot|P54113 Saccharomyces cerevisiae YLR028c ADE16
+CAGL0A03388g	highly similar to uniprot|P54780 Saccharomyces cerevisiae YMR121c RPL13B or uniprot|P05748 Saccharomyces cerevisiae YLR029c RPL13A
+CAGL0A03410g	no similarity
+CAGL0A03432g	similar to uniprot|P32849 Saccharomyces cerevisiae YLR032w RAD5
+CAGL0A03454g	similar to uniprot|Q07979 Saccharomyces cerevisiae YLR033w
+CAGL0A03476g	highly similar to uniprot|Q12078 Saccharomyces cerevisiae YLR034c
+CAGL0A03498g	similar to uniprot|Q07980 Saccharomyces cerevisiae YLR035c MLH2
+CAGL0A03542g	highly similar to uniprot|Q01519 Saccharomyces cerevisiae YLR038c COX12 cytochrome-c oxidase
+CAGL0A03564g	similar to uniprot|P40395 Saccharomyces cerevisiae YLR039c RIC1
+CAGL0A03586g	similar to uniprot|Q07988 Saccharomyces cerevisiae YLR040c
+CAGL0A03608g	some similarities with to uniprot|Q07990 Saccharomyces cerevisiae YLR042c
+CAGL0A03630g	similar to uniprot|P33339 Saccharomyces cerevisiae YGR047c TFC4
+CAGL0A03652g	similar to uniprot|P38112 Saccharomyces cerevisiae YBR142w MAK5 ATP-dependent RNA helicase
+CAGL0A03674g	similar to uniprot|P38278 Saccharomyces cerevisiae YBR141c
+CAGL0A03696g	similar to uniprot|Q04739 Saccharomyces cerevisiae YER027c GAL83 glucose repression protein
+CAGL0A03718g	highly similar to uniprot|P22137 Saccharomyces cerevisiae YGL206c CHC1
+CAGL0A03740g	highly similar to uniprot|P13711 Saccharomyces cerevisiae YGL205w POX1
+CAGL0A03784g	some similarities with uniprot|Q08749 Saccharomyces cerevisiae YOR297c TIM18
+CAGL0A03806g	similar to uniprot|Q08750 Saccharomyces cerevisiae YOR298w MUM3
+CAGL0A03828g	similar to uniprot|Q08760 Saccharomyces cerevisiae YOR301w RAX1
+CAGL0A03872g	highly similar to uniprot|Q05785 Saccharomyces cerevisiae YLR206w ENT2
+CAGL0A03883g	similar to uniprot|P32344 Saccharomyces cerevisiae YLR204w QRI5
+CAGL0A03905g	similar to uniprot|P32339 Saccharomyces cerevisiae YLR205c
+CAGL0A03927g	highly similar to uniprot|P32335 Saccharomyces cerevisiae YLR203c MSS51
+CAGL0A03949g	similar to uniprot|Q05779 Saccharomyces cerevisiae YLR201c
+CAGL0A03971g	similar to uniprot|P52553 Saccharomyces cerevisiae YLR200w YKE2 Gim complex component
+CAGL0A03993g	similar to uniprot|Q05778 Saccharomyces cerevisiae YLR199c
+CAGL0A04015g	similar to uniprot|Q12460 Saccharomyces cerevisiae YLR197w SIK1 involved in pre-rRNA processing
+CAGL0A04037g	highly similar to uniprot|P21304 Saccharomyces cerevisiae YLR196w PWP1
+CAGL0A04059g	highly similar to uniprot|P14743 Saccharomyces cerevisiae YLR195c NMT1 N-myristoyltransferase
+CAGL0A04081g	weakly similar to uniprot|Q05777 Saccharomyces cerevisiae YLR194c
+CAGL0A04103g	similar to uniprot|Q05776 Saccharomyces cerevisiae YLR193c MSF1
+CAGL0A04125g	highly similar to uniprot|Q05775 Saccharomyces cerevisiae YLR192c HCR1
+CAGL0A04147g	similar to uniprot|P80667 Saccharomyces cerevisiae YLR191w PAS20
+CAGL0A04169g	similar to uniprot|Q06324 Saccharomyces cerevisiae YLR190w
+CAGL0A04191g	similar to uniprot|P52871 Saccharomyces cerevisiae YER019ca SEB2
+CAGL0A04213g	similar to uniprot|P34217 Saccharomyces cerevisiae YBL051c
+CAGL0A04235g	similar to uniprot|P34218 Saccharomyces cerevisiae YBL052c SAS3 silencing protein
+CAGL0A04257g	some similarities with uniprot|P40059 Saccharomyces cerevisiae YER088c DOT6 or uniprot|P34219 Saccharomyces cerevisiae YBL054w
+CAGL0A04279g	similar to uniprot|P34220 Saccharomyces cerevisiae YBL055c
+CAGL0A04301g	similar to uniprot|P34221 Saccharomyces cerevisiae YBL056w PTC3
+CAGL0A04323g	similar to uniprot|P34222 Saccharomyces cerevisiae YBL057c
+CAGL0A04345g	similar to uniprot|P34223 Saccharomyces cerevisiae YBL058w SHP1
+CAGL0A04367g	similar to uniprot|P34224 Saccharomyces cerevisiae YBL059w and similar to uniprot|P87275 Saccharomyces cerevisiae YER093C-A
+CAGL0A04389g	highly similar to uniprot|Q3E7A4 Saccharomyces cerevisiae YBL059C-A
+CAGL0A04411g	some similarities with uniprot|P34226 Saccharomyces cerevisiae YBL061c SKT5
+CAGL0A04433g	highly similar to uniprot|P34227 Saccharomyces cerevisiae YBL064c
+CAGL0A04455g	similar to uniprot|P34228 Saccharomyces cerevisiae YBL066c SEF1
+CAGL0A04477g	similar to uniprot|P38187 Saccharomyces cerevisiae YBL067c UBP13 or uniprot|P39967 Saccharomyces cerevisiae YER098w UBP9 ubiquitin carboxyl-terminal hydrolase
+CAGL0A04499g	highly similar to uniprot|Q3E840 Saccharomyces cerevisiae YBL071W-A KTI11
+CAGL0A04521g	highly similar to uniprot|P05754 Saccharomyces cerevisiae YER102w RPS8B and highly similar to uniprot|P05754 Saccharomyces cerevisiae YBL072c RPS8A
+CAGL0A04543g	similar to uniprot|P32357 Saccharomyces cerevisiae YBL074c AAR2
+CAGL0A04565g	similar to uniprot|P25302 Saccharomyces cerevisiae YER111c SWI4
+CAGL0A04587g	similar to uniprot|P38179 Saccharomyces cerevisiae YBL082c RHK1 mannosyltransferase
+CAGL0A04631g	weakly similar to uniprot|P38180 Saccharomyces cerevisiae YBL081w
+CAGL0A04653g	similar to uniprot|P33893 Saccharomyces cerevisiae YBL080c PET112
+CAGL0A04675g	highly similar to uniprot|P38182 Saccharomyces cerevisiae YBL078c AUT7
+CAGL0A04697g	similar to uniprot|P19955 Saccharomyces cerevisiae YFR049w YMR31
+CAGL0A04719g	highly similar to uniprot|P30657 Saccharomyces cerevisiae YFR050c PRE4
+CAGL0A04741g	similar to uniprot|P43621 Saccharomyces cerevisiae YFR051c RET2
+CAGL0A04785g	similar to uniprot|P32608 Saccharomyces cerevisiae YGL252c RTG2
+CAGL0A04807g	similar to uniprot|P32496 Saccharomyces cerevisiae YFR052w NIN1
+CAGL0A04829g	highly similar to uniprot|P04807 Saccharomyces cerevisiae YGL253w HXK2 or uniprot|P04806 Saccharomyces cerevisiae YFR053c HXK1

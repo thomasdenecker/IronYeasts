@@ -1,0 +1,155 @@
+*NEWRECORD
+RECTYPE = D
+MH = Calcimycin
+AQ = AA AD AE AG AI AN BI BL CF CH CL CS EC HI IM IP ME PD PK PO RE SD ST TO TU UR
+ENTRY = A-23187|T109|T195|LAB|NRW|NLM (1991)|900308|abbcdef
+ENTRY = A23187|T109|T195|LAB|NRW|UNK (19XX)|741111|abbcdef
+ENTRY = Antibiotic A23187|T109|T195|NON|NRW|NLM (1991)|900308|abbcdef
+ENTRY = A 23187
+ENTRY = A23187, Antibiotic
+MN = D03.633.100.221.173
+PA = Anti-Bacterial Agents
+PA = Calcium Ionophores
+MH_TH = FDA SRS (2014)
+MH_TH = NLM (1975)
+ST = T109
+ST = T195
+N1 = 4-Benzoxazolecarboxylic acid, 5-(methylamino)-2-((3,9,11-trimethyl-8-(1-methyl-2-oxo-2-(1H-pyrrol-2-yl)ethyl)-1,7-dioxaspiro(5.5)undec-2-yl)methyl)-, (6S-(6alpha(2S*,3S*),8beta(R*),9beta,11alpha))-
+RN = 37H9VM9WZL
+RR = 52665-69-7 (Calcimycin)
+PI = Antibiotics (1973-1974)
+PI = Carboxylic Acids (1973-1974)
+MS = An ionophorous, polyether antibiotic from Streptomyces chartreusensis. It binds and transports CALCIUM and other divalent cations across membranes and uncouples oxidative phosphorylation while inhibiting ATPase of rat liver mitochondria. The substance is used mostly as a biochemical tool to study the role of divalent cations in various biological systems.
+OL = use CALCIMYCIN to search A 23187 1975-90
+PM = 91; was A 23187 1975-90 (see under ANTIBIOTICS 1975-83)
+HN = 91(75); was A 23187 1975-90 (see under ANTIBIOTICS 1975-83)
+MR = 20160527
+DA = 19741119
+DC = 1
+DX = 19840101
+UI = D000001
+
+*NEWRECORD
+RECTYPE = D
+MH = Temefos
+AQ = AA AD AE AG AI AN BL CF CH CL CS EC HI IM IP ME PD PK RE SD ST TO TU UR
+ENTRY = Abate|T109|T131|TRD|NRW|NLM (1996)|941114|abbcdef
+ENTRY = Difos|T109|T131|TRD|NRW|UNK (19XX)|861007|abbcdef
+ENTRY = Temephos|T109|T131|TRD|EQV|NLM (1996)|941201|abbcdef
+MN = D02.705.400.625.800
+MN = D02.705.539.345.800
+MN = D02.886.300.692.800
+PA = Insecticides
+MH_TH = FDA SRS (2014)
+MH_TH = INN (19XX)
+MH_TH = USAN (1974)
+ST = T109
+ST = T131
+N1 = Phosphorothioic acid, O,O'-(thiodi-4,1-phenylene) O,O,O',O'-tetramethyl ester
+RN = ONP3ME32DL
+RR = 3383-96-8 (Temefos)
+AN = for use to kill or control insects, use no qualifiers on the insecticide or the insect; appropriate qualifiers may be used when other aspects of the insecticide are discussed such as the effect on a physiologic process or behavioral aspect of the insect; for poisoning, coordinate with ORGANOPHOSPHATE POISONING
+PI = Insecticides (1966-1971)
+MS = An organothiophosphate insecticide.
+PM = 96; was ABATE 1972-95 (see under INSECTICIDES, ORGANOTHIOPHOSPHATE 1972-90)
+HN = 96; was ABATE 1972-95 (see under INSECTICIDES, ORGANOTHIOPHOSPHATE 1972-90)
+MR = 20130708
+DA = 19990101
+DC = 1
+DX = 19910101
+UI = D000002
+
+*NEWRECORD
+RECTYPE = D
+MH = Abattoirs
+AQ = CL EC ES HI LJ MA OG SD SN ST TD UT
+PRINT ENTRY = Slaughterhouses|T073|NON|EQV|UNK (19XX)|740329|abcdef
+ENTRY = Slaughter House|T073|NON|EQV|NLM (2017)|160525|abcdef
+ENTRY = Slaughter Houses|T073|NON|EQV|NLM (2017)|160525|abcdef
+ENTRY = Abattoir
+ENTRY = House, Slaughter
+ENTRY = Houses, Slaughter
+ENTRY = Slaughterhouse
+MN = J01.576.423.200.700.100
+MN = J03.540.020
+MH_TH = NLM (1966)
+ST = T073
+MS = Places where animals are slaughtered and dressed for market.
+MR = 20160608
+DA = 19990101
+DC = 1
+DX = 19660101
+UI = D000003
+
+*NEWRECORD
+RECTYPE = D
+MH = Abbreviations as Topic
+ENTRY = Acronyms as Topic|T170|NON|NRW|NLM (2008)|070629|abcdef
+MN = L01.559.598.400.556.131
+MH_TH = NLM (2008)
+ST = T170
+AN = includes acronyms; do not confuse with Publication Type ABBREVIATIONS
+MS = Works about shortened forms of written words or phrases used for brevity.
+PM = 2008; see ABBREVIATIONS 1963-2007
+HN = 2008(1963)
+MR = 20170630
+DA = 19990101
+DC = 1
+DX = 19600101
+UI = D000004
+
+*NEWRECORD
+RECTYPE = D
+MH = Abdomen
+AQ = AB AH BS DG EM GD IR MI PA PH PP PS RE SU VI
+ENTRY = Abdomens
+MN = A01.923.047
+EC = injuries:Abdominal Injuries
+MH_TH = NLM (1966)
+ST = T029
+AN = GEN: prefer specifics; abdom muscles = ABDOMINAL MUSCLES but RECTUS ABDOMINIS is available; abdominal pain = ABDOMINAL PAIN; abrupt dis requiring emerg surg = ABDOMEN, ACUTE
+MS = That portion of the body that lies between the THORAX and the PELVIS.
+MR = 20160809
+DA = 19990101
+DC = 1
+DX = 19660101
+UI = D000005
+
+*NEWRECORD
+RECTYPE = D
+MH = Abdomen, Acute
+AQ = BL CF CI CL CN CO DG DH DI DT EC EH EM EN EP ET GE HI IM ME MI MO NU PA PC PP PS PX RH RT SU TH UR VE VI
+ENTRY = Abdomens, Acute
+ENTRY = Acute Abdomen
+ENTRY = Acute Abdomens
+MN = C23.888.592.612.054.200
+MN = C23.888.821.030.249
+MH_TH = NLM (1966)
+ST = T184
+MS = A clinical syndrome with acute abdominal pain that is severe, localized, and rapid in onset. Acute abdomen may be caused by a variety of disorders, injuries, or diseases.
+CATSH = CAT LIST
+MR = 20170620
+DA = 19990101
+DC = 1
+DX = 19660101
+UI = D000006
+
+*NEWRECORD
+RECTYPE = D
+MH = Abdominal Injuries
+DE = ABDOMINAL INJ
+AQ = BL CF CI CL CN CO DG DH DI DT EC EH EM EN EP ET GE HI IM ME MI MO NU PA PC PP PS PX RH RT SU TH UR VE VI
+ENTRY = Injuries, Abdominal|T037|NON|EQV|UNK (19XX)|860101|INJ ABDOMINAL|abcdefv
+ENTRY = Abdominal Injury
+ENTRY = Injury, Abdominal
+MN = C26.017
+MH_TH = NLM (1966)
+ST = T037
+AN = general term for inj of organs in the abdom cavity; prefer specific organs /inj
+MS = General or unspecified injuries involving organs in the abdominal cavity.
+CATSH = CAT LIST
+MR = 20100625
+DA = 19990101
+DC = 1
+DX = 19660101
+UI = D000007
