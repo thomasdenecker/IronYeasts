@@ -177,6 +177,10 @@ if __name__ == '__main__':
         # Get all file . embl in folder
         EMBL_FILES = glob.glob(INPUT + "*.embl")
 
+        if not EMBL_FILES:
+            print("The folder don't contain EMBL file. Change the folder.")
+            exit()
+
         # Write in a output file
         OUTFILE = open(OUTPUT, "w")
         OUTFILE.write('locus_tag' + "\t" + 'GRYC_note' + "\n")
