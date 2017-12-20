@@ -65,10 +65,10 @@ GO_CGD <- function(file_go_terms = NULL){
                         "Assigned_by")
 
   # Download and prepare last GO annotation
-  system("python3 ./GO/GO_OBO_TO_TABLE.py")
+  system("pipenv run python formater.py --go -o ./Data/GO/GO_with_def")
 
   # Read last GO annotation
-  GO_DEF <- read.csv("./GO/GO_with_def.txt", header = T, sep = "\t")
+  GO_DEF <- read.csv("./Data/GO/GO_with_def.txt", header = T, sep = "\t")
   colnames(GO_DEF) <- c("GO ID", "Term", "Description")
 
   GO_final <- merge(go_term, GO_DEF, by = "GO ID" )
